@@ -1,6 +1,13 @@
+import java.util.Scanner;
 class sum{
     public static void main(String[] args){
-        int a=2,b=3,c;
+        int a,b,c;
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter the the value of a:");
+        a = input.nextInt();
+        System.out.println("Enter the the value of b:");
+        b = input.nextInt();
         c=a+b;
-        System.out .println("sum of a and b is " +c);
+        System.out .println("Result is " +c);
+        input.close();
     }}
